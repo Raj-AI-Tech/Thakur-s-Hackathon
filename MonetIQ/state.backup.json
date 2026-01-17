@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "app_name": "MonetIQ",
+    "version": "1.0",
+    "currency": "INR",
+    "financial_year": "2025-2026",
+    "last_updated": "2026-01-17T07:03:08.622821"
+  },
+  "user_profile": {
+    "name": "Demo User",
+    "email": "demo@monetiq.ai",
+    "age": 23,
+    "employment_type": "Salaried",
+    "city": "Mumbai"
+  },
+  "income": {
+    "monthly_income": 60000,
+    "sources": [
+      {
+        "name": "Salary",
+        "amount": 55000
+      },
+      {
+        "name": "Freelancing",
+        "amount": 5000
+      }
+    ]
+  },
+  "expenses": [
+    {
+      "amount": 600.0,
+      "description": "jgjhj",
+      "category": "Other",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "jgjhj",
+      "id": "3f58f44f-f2dc-42a6-8e36-68c75f09a660",
+      "is_recurring": false
+    },
+    {
+      "amount": 1300.0,
+      "description": "idk",
+      "category": "Other",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "idk",
+      "id": "8a30ce5f-1bfa-4c8f-82be-f498863832c2",
+      "is_recurring": false
+    },
+    {
+      "amount": 200000000.0,
+      "description": "5",
+      "category": "Other",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "5",
+      "id": "d6b965cc-4063-4615-ad45-8ead387f273a",
+      "is_recurring": false
+    },
+    {
+      "amount": 600.0,
+      "description": "rt",
+      "category": "Entertainment",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "rt",
+      "id": "1c0bd1a2-ef83-4054-84d2-44849efa19ba",
+      "is_recurring": false
+    },
+    {
+      "amount": 7000.0,
+      "description": "food",
+      "category": "Food",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "food",
+      "id": "d7f89928-2f1d-4a38-9d54-2890daf31c13",
+      "is_recurring": false
+    },
+    {
+      "amount": 1500.0,
+      "description": "Rent",
+      "category": "Rent",
+      "date": "2026-01-17",
+      "source": "UPI",
+      "merchant": "Rent",
+      "id": "ea6141cd-e454-4747-87dd-c19a79d74086",
+      "is_recurring": false
+    }
+  ],
+  "budgets": {
+    "Entertainment": 500.0,
+    "Food": 8000.0,
+    "Rent": 15000.0,
+    "Shopping": 5000.0,
+    "Transport": 4000.0
+  },
+  "savings_goals": [
+    {
+      "id": "goal_001",
+      "name": "Emergency Fund",
+      "target": 150000,
+      "current": 45000,
+      "deadline": "2026-12-31",
+      "priority": "High",
+      "category": "Emergency Fund"
+    }
+  ],
+  "tax_profile": {
+    "regime": "Old",
+    "deductions": {
+      "80C": 90000,
+      "80D": 15000,
+      "HRA": 60000
+    },
+    "investments": {
+      "ELSS": 50000,
+      "PPF": 40000
+    }
+  },
+  "loans": {
+    "total_emi": 0
+  },
+  "gamification": {
+    "xp": 1200,
+    "level": 3,
+    "streak": 5,
+    "badges": [
+      "Getting Started"
+    ]
+  },
+  "alerts": [],
+  "transactions": [
+    {
+      "amount": 600.0,
+      "description": "jgjhj",
+      "category": "Other",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "jgjhj",
+      "id": "3f58f44f-f2dc-42a6-8e36-68c75f09a660",
+      "is_recurring": false
+    },
+    {
+      "amount": 1300.0,
+      "description": "idk",
+      "category": "Other",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "idk",
+      "id": "8a30ce5f-1bfa-4c8f-82be-f498863832c2",
+      "is_recurring": false
+    },
+    {
+      "amount": 200000000.0,
+      "description": "5",
+      "category": "Other",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "5",
+      "id": "d6b965cc-4063-4615-ad45-8ead387f273a",
+      "is_recurring": false
+    },
+    {
+      "amount": 600.0,
+      "description": "rt",
+      "category": "Entertainment",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "rt",
+      "id": "1c0bd1a2-ef83-4054-84d2-44849efa19ba",
+      "is_recurring": false
+    },
+    {
+      "amount": 7000.0,
+      "description": "food",
+      "category": "Food",
+      "date": "2026-01-17",
+      "source": "Cash",
+      "merchant": "food",
+      "id": "d7f89928-2f1d-4a38-9d54-2890daf31c13",
+      "is_recurring": false
+    },
+    {
+      "amount": 1500.0,
+      "description": "Rent",
+      "category": "Rent",
+      "date": "2026-01-17",
+      "source": "UPI",
+      "merchant": "Rent",
+      "id": "ea6141cd-e454-4747-87dd-c19a79d74086",
+      "is_recurring": false
+    }
+  ],
+  "health_score_history": [
+    {
+      "date": "2026-01-17",
+      "score": 35,
+      "grade": "Risky",
+      "components": {
+        "savings_rate": {
+          "score": 0.0,
+          "weight": 0.25,
+          "details": {
+            "savings_rate": 0.0,
+            "monthly_savings": 0.0,
+            "status": "No income data"
+          }
+        },
+        "budget_discipline": {
+          "score": 70.0,
+          "weight": 0.2,
+          "details": {
+            "status": "module_unavailable"
+          }
+        },
+        "expense_stability": {
+          "score": 60.0,
+          "weight": 0.15,
+          "details": {
+            "status": "insufficient_data"
+          }
+        },
+        "emergency_readiness": {
+          "score": 0.0,
+          "weight": 0.2,
+          "details": {
+            "months_coverage": 0.0,
+            "recommended_fund": 1200011400.0,
+            "status": "needs_building"
+          }
+        },
+        "debt_burden": {
+          "score": 50.0,
+          "weight": 0.12,
+          "details": {
+            "status": "no_income_data"
+          }
+        },
+        "tax_pressure": {
+          "score": 70.0,
+          "weight": 0.08,
+          "details": {
+            "error": "unsupported operand type(s) for -: 'dict' and 'decimal.Decimal'",
+            "status": "calculation_failed"
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "score": 35,
+      "grade": "Risky",
+      "components": {
+        "savings_rate": {
+          "score": 0.0,
+          "weight": 0.25,
+          "details": {
+            "savings_rate": 0.0,
+            "monthly_savings": 0.0,
+            "status": "No income data"
+          }
+        },
+        "budget_discipline": {
+          "score": 70.0,
+          "weight": 0.2,
+          "details": {
+            "status": "module_unavailable"
+          }
+        },
+        "expense_stability": {
+          "score": 60.0,
+          "weight": 0.15,
+          "details": {
+            "status": "insufficient_data"
+          }
+        },
+        "emergency_readiness": {
+          "score": 0.0,
+          "weight": 0.2,
+          "details": {
+            "months_coverage": 0.0,
+            "recommended_fund": 1200011400.0,
+            "status": "needs_building"
+          }
+        },
+        "debt_burden": {
+          "score": 50.0,
+          "weight": 0.12,
+          "details": {
+            "status": "no_income_data"
+          }
+        },
+        "tax_pressure": {
+          "score": 70.0,
+          "weight": 0.08,
+          "details": {
+            "error": "unsupported operand type(s) for -: 'dict' and 'decimal.Decimal'",
+            "status": "calculation_failed"
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "score": 35,
+      "grade": "Risky",
+      "components": {
+        "savings_rate": {
+          "score": 0.0,
+          "weight": 0.25,
+          "details": {
+            "savings_rate": 0.0,
+            "monthly_savings": 0.0,
+            "status": "No income data"
+          }
+        },
+        "budget_discipline": {
+          "score": 70.0,
+          "weight": 0.2,
+          "details": {
+            "status": "module_unavailable"
+          }
+        },
+        "expense_stability": {
+          "score": 60.0,
+          "weight": 0.15,
+          "details": {
+            "status": "insufficient_data"
+          }
+        },
+        "emergency_readiness": {
+          "score": 0.0,
+          "weight": 0.2,
+          "details": {
+            "months_coverage": 0.0,
+            "recommended_fund": 1200066000.0,
+            "status": "needs_building"
+          }
+        },
+        "debt_burden": {
+          "score": 50.0,
+          "weight": 0.12,
+          "details": {
+            "status": "no_income_data"
+          }
+        },
+        "tax_pressure": {
+          "score": 70.0,
+          "weight": 0.08,
+          "details": {
+            "error": "unsupported operand type(s) for -: 'dict' and 'decimal.Decimal'",
+            "status": "calculation_failed"
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "score": 35,
+      "grade": "Risky",
+      "components": {
+        "savings_rate": {
+          "score": 0.0,
+          "weight": 0.25,
+          "details": {
+            "savings_rate": 0.0,
+            "monthly_savings": 0.0,
+            "status": "No income data"
+          }
+        },
+        "budget_discipline": {
+          "score": 70.0,
+          "weight": 0.2,
+          "details": {
+            "status": "module_unavailable"
+          }
+        },
+        "expense_stability": {
+          "score": 60.0,
+          "weight": 0.15,
+          "details": {
+            "status": "insufficient_data"
+          }
+        },
+        "emergency_readiness": {
+          "score": 0.0,
+          "weight": 0.2,
+          "details": {
+            "months_coverage": 0.0,
+            "recommended_fund": 1200066000.0,
+            "status": "needs_building"
+          }
+        },
+        "debt_burden": {
+          "score": 50.0,
+          "weight": 0.12,
+          "details": {
+            "status": "no_income_data"
+          }
+        },
+        "tax_pressure": {
+          "score": 70.0,
+          "weight": 0.08,
+          "details": {
+            "error": "unsupported operand type(s) for -: 'dict' and 'decimal.Decimal'",
+            "status": "calculation_failed"
+          }
+        }
+      }
+    }
+  ]
+}
